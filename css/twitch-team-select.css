@@ -1,0 +1,69 @@
+#TeamMember {width:100%; height:410px; padding: 0px 0 0px 0; border-bottom: 5px; border-top:5px; border-color: #000000; border-bottom-style: solid; border-top-style: solid;}
+#TeamMember:first-child {border-top: 5px; border-color: #000000; border-top-style: solid;}
+#TeamMember:last-child {border-bottom: 5px; border-color: #000000; border-bottom-style: solid;}
+#twitchInfo {width:20%; height:400px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+#logoContainer {height:250px; width:100%;}
+#yourLogo {display:block; margin:0 auto; height:250px; padding: 10px 0 10px 0;}
+#yourName {font-size:2vw; background-color:#6441a4; height: 50px; text-align:center; color:#FFFFFF;}
+#yourUrlHolder {height:50px; text-align: center; background-color:#593b92;}
+#yourUrl {font-size:2vw; text-decoration:none; text-align:center;}
+#yourStats {height:50px; background-color:#442d6f;}
+#twitchBanner {width: 80%; height:400px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+#yourBanner {width:100%; height:400px}
+.null {display:none;}
+.fill-grey-10 { fill:#b8b5c0;}
+
+@media screen and (max-width: 1110px) and (min-width: 1026px){
+  #TeamMember {width:100%; height:235px; padding: 0px 0 0px 0; border-bottom: 5px; border-top:5px; border-color: #000000; border-bottom-style: solid; border-top-style: solid;}
+  #TeamMember:first-child {border-top: 5px; border-color: #000000; border-top-style: solid;}
+  #TeamMember:last-child {border-bottom: 5px; border-color: #000000; border-bottom-style: solid;}
+  #twitchInfo {width:20%; height:225px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #logoContainer {height:150px; width:100%;}
+  #yourLogo {display:block; margin:0 auto; height: 150px; padding: 10px 0 10px 0;}
+  #yourName {font-size:2vh; line-height: 25px; background-color:#6441a4; height: 25px; text-align:center; color:#FFFFFF;}
+  #yourUrlHolder {height:25px; text-align: center; background-color:#593b92;}
+  #yourUrl {text-decoration:none;}
+  #yourStats {height:25px; background-color:#442d6f;}
+  #twitchBanner {width: 80%; height:225px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #yourBanner {width:100%; height:225px}
+}
+
+@media screen and (max-width: 1025px){
+  #TeamMember {width:100%; height:235px; padding: 0px 0 0px 0; border-bottom: 5px; border-top:5px; border-color: #000000; border-bottom-style: solid; border-top-style: solid;}
+  #TeamMember:first-child {border-top: 5px; border-color: #000000; border-top-style: solid;}
+  #TeamMember:last-child {border-bottom: 5px; border-color: #000000; border-bottom-style: solid;}
+  #twitchInfo {width:20%; height:225px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #logoContainer {height:150px; width:100%;}
+  #yourLogo {display:block; margin:0 auto; height: 150px; padding: 10px 0 10px 0;}
+  #yourName {font-size:2vw; background-color:#6441a4; height: 25px; text-align:center; color:#FFFFFF;}
+  #yourUrlHolder {height:25px; text-align: center; background-color:#593b92;}
+  #yourUrl {text-decoration:none;}
+  #yourStats {height:25px; background-color:#442d6f;}
+  #twitchBanner {width: 80%; height:225px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #yourBanner {width:100%; height:225px}
+}
+
+@media screen and (max-width: 900px){
+  #TeamMember {width:100%; height:110px; padding: 0px 0 0px 0; border-bottom: 5px; border-top:5px; border-color: #000000; border-bottom-style: solid; border-top-style: solid;}
+  #TeamMember:first-child {border-top: 5px; border-color: #000000; border-top-style: solid;}
+  #TeamMember:last-child {border-bottom: 5px; border-color: #000000; border-bottom-style: solid;}
+  #twitchInfo {width:20%; height:100px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #logoContainer {height:70px; width:100%;}
+  #yourLogo {display:block; margin:0 auto; height:70px; padding: 15px 0 15px 0;}
+  #yourName {font-size:2vw; background-color:#6441a4; height: 10px; text-align:center; color:#FFFFFF;}
+  #yourUrlHolder {height:10px; text-align: center; font-size: 1vh; background-color:#593b92;}
+  #yourUrl {text-decoration:none;}
+  #yourStats {height:10px; background-color:#442d6f;}
+  #twitchBanner {width: 80%; height:110px; display:block; float:left; background-color:rgba(23,20,31,.5);}
+  #yourBanner {width:100%; height:100px}
+}
+
+@media screen and (max-width: 1675px) and (min-width: 1111px){
+  #yourLogo {height:250px; padding: 10px 0 10px 0;}
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1111px) {
+  #yourName {font-size:1.5vw; line-height: 50px; color:#FFFFFF;}
+  #yourUrlHolder {font-size:1.5vw; line-height: 50px;}
+  #yourUrl {font-size:1.5vw; line-height: 50px;}
+}
